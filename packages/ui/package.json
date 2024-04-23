@@ -13,6 +13,7 @@
   "scripts": {
     "build": "tsup",
     "clean": "rm -rf dist",
+    "remove": "rm -rf node_modules",
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
     "lint:test": "eslint src/",
